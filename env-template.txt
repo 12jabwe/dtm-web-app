@@ -1,0 +1,43 @@
+# Copy this file to .env and fill in your actual values.
+# NEVER commit real secrets. Use test keys locally; live keys only in Supabase/CI secrets.
+
+# Supabase Configuration
+EXPO_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
+EXPO_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key-here
+
+# Stripe Configuration (secret key: Supabase only — not in client .env)
+EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your-publishable-key-here
+STRIPE_SECRET_KEY=sk_test_your-secret-key-here
+
+# Google OAuth Configuration
+EXPO_PUBLIC_GOOGLE_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
+EXPO_PUBLIC_GOOGLE_CLIENT_SECRET=your-google-client-secret-here
+
+# Apple OAuth Configuration
+EXPO_PUBLIC_APPLE_CLIENT_ID=com.yourcompany.yourapp
+EXPO_PUBLIC_APPLE_TEAM_ID=YOUR_TEAM_ID
+EXPO_PUBLIC_APPLE_KEY_ID=YOUR_KEY_ID
+
+# Facebook OAuth Configuration
+EXPO_PUBLIC_FACEBOOK_APP_ID=your-facebook-app-id
+EXPO_PUBLIC_FACEBOOK_CLIENT_TOKEN=your-facebook-client-token
+
+# OAuth Redirect URLs
+EXPO_PUBLIC_OAUTH_REDIRECT_URL=https://your-project-id.supabase.co/auth/v1/callback
+EXPO_PUBLIC_OAUTH_REDIRECT_URL_MOBILE=com.yourcompany.yourapp://auth/callback
+
+# App Environment
+APP_ENV=development
+
+# Social Commerce Configuration
+EXPO_PUBLIC_GOOGLE_MERCHANT_ID=your_google_merchant_id
+EXPO_PUBLIC_GOOGLE_API_KEY=your_google_api_key
+EXPO_PUBLIC_FACEBOOK_CATALOG_ID=your_facebook_catalog_id
+EXPO_PUBLIC_FACEBOOK_ACCESS_TOKEN=your_facebook_access_token
+EXPO_PUBLIC_FACEBOOK_PIXEL_ID=your_facebook_pixel_id
+EXPO_PUBLIC_INSTAGRAM_CATALOG_ID=your_instagram_catalog_id
+EXPO_PUBLIC_INSTAGRAM_ACCESS_TOKEN=your_instagram_access_token
+EXPO_PUBLIC_TIKTOK_SHOP_ID=your_tiktok_shop_id
+EXPO_PUBLIC_TIKTOK_ACCESS_TOKEN=your_tiktok_access_token
+EXPO_PUBLIC_BASE_URL=https://yourstore.com
